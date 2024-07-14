@@ -1,0 +1,25 @@
+/* ini css  */
+.main-title{
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_class{
+    border: 1px solid;
+    background-color: lavender;
+    padding: 12px;
+}
+
+.content-right {
+border :1px solid;
+flex: 1;
+}
+
+.content-left {
+border : 1px solid;
+flex : 1;
+}
