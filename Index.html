@@ -2,7 +2,7 @@
 <html lang="eng">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width-device-width, initial;-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>dokument</title>
         <link rel="stylesheet" href="ccs/styles.css">
     </head>
@@ -40,7 +40,7 @@
 
                 <div>
                     <label for ="usia">Usia</label>
-                    <input type="number" id="iusia">
+                    <input type="number" id="usia">
                 </div>
 
                 <div>
@@ -49,7 +49,7 @@
                 </div>
 
                 <div>
-                    <button class="button submit">Submit</button>
+                    <button class="button submit" type="button" onclick="updateResult();">Submit</button>
                     <button class="button reset">reset </button>
                 </div>
             </form>
@@ -66,7 +66,7 @@
         </section >
         
         <!-- right content -->
-        <section class="content-right">
+        <section class="content-right result-content" style="display: none;">
             <!-- Result Article -->
             <article>
                 <header>
@@ -76,7 +76,7 @@
                 <!-- Result Section -->
                 <section class="result">
                     <p>hasilnya adalah</p>
-                    <h2>24,7</h2>
+                    <h2 id="bmi-result">24,7</h2>
                     <p>anda memiliki berat badan </p>
                 </section>  
 
@@ -87,5 +87,6 @@
         </section>  
       
     </main>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
