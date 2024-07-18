@@ -9,7 +9,7 @@ main {
 }
 
 .form_class{
-    background-color: rgb(220, 252, 252);
+    background-color: aliceblue;
     padding: 12px;
     border-radius: 8px;
 }
@@ -80,9 +80,6 @@ form{
 @media only screen and  (max-width: 425px){
     main {
         flex-direction: column;
-    }
-    .result-content {
-        display: block !important;
     }
     
 }

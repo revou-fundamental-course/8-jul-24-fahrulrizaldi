@@ -45,7 +45,7 @@
 
                 <div>
                     <label for ="tinggi-badan">tinggi badan (cm)</label>
-                    <input type="number" id="tinggi-berat">
+                    <input type="number" id="tinggi-badan">
                 </div>
 
                 <div>
@@ -60,28 +60,37 @@
                 <header>Keunggulan Fitur</header>
 
                 <article>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,</p>
-                </article>
+                    <p>
+                    1. menghitung berat badan</br>
+                    2. Menentukan kategori berat badan ideal atau tidak</br>
+                    3. Mempersiapkan program penurunan berat badan </br></p>
+                </br>
+                <p> Kalulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini
+                dan tidak ada tindakan yang harus diambil berdasarkan nilai selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter</p>
+                </br>
+                <p>kalkulator akan memberi anda gambaran tentang perbandingan berat badan anda dengan nilai umum, indeks massa tubuh (BMI) dihitung sehingga berat badan anda (dalam kilogram) dibagi </P>
+                dengan kuadrat tinggi badan anda (dalam meter) atau BMI  = KG /m2</p>  
+            </article>
           </section>
         </section >
         
         <!-- right content -->
-        <section class="content-right result-content" style="display: none;">
+        <section class="content-right">
             <!-- Result Article -->
             <article>
                 <header>
-                    <h1>HASIL</h1>
+                    <h1>Result</h1>
                 </header>
 
                 <!-- Result Section -->
                 <section class="result">
-                    <p>hasilnya adalah</p>
-                    <h2 id="bmi-result">24,7</h2>
-                    <p>anda memiliki berat badan </p>
+                    <p id="bmi-result-judul"> </p> 
+                    <h2 id="bmi-result"></h2>
+                    <p id="bmi-result-keterangan"></p>
                 </section>  
 
                 <!-- Result Article -->
-                <article>
+                <article id="article-hasil">
                 </article>
             </article>
         </section>  
